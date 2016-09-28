@@ -17,12 +17,12 @@ to the ones on the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pd
 like: number of task, number of value per distribution et system utilization 
 rate. These parameter are named respectively: "Nt", "Nv" and "U" in the script. 
 
-Despite, the precedence matrix "G" used in "sporadicPrecSimFixedGraph" script 
+_Despite, the precedence matrix "G" used in "sporadicPrecSimFixedGraph" script 
 describe the precedence graph illustrated by figure (3) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0). This matrix
 must be modified if we change the number of task then a different precedence matrix 
 may produce a different results. Therefore in this case, user shouldn't change the 
 number of task to ensure similar results. but for the second experiment the Precedence 
-graph "G" are generated automatically thus we can change the number of task.
+graph "G" are generated automatically thus we can change the number of task._
 
 Hardware and time specifications
 -------------------------------
@@ -32,7 +32,7 @@ minutes and the second one "sporadicPrecSimGeneratedGraph" take 50 minutes. If u
 want to run a shorter version, he can change the number of simulation "NbrSim" from 
 10 to 1 for the first script and from 100 to 1 for the second.
 
-Results comparaison
+Results interpretation
 -------------------------------
 
 - **First experiment:** The output of the "sporadicPrecSimFixedGraph" script is vector represent the 
