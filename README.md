@@ -32,7 +32,7 @@ Results interpretation
 - **First experiment:** The output of the script "Main_Experiment1"  is a vector representing the 
 schedulability ratio of the analysed Task-sets . If this ratio is less than 
 100% then the Task-set is not schedulable by the deterministic test illustrated by 
-Equation 3 in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf).The resulting vector corresponds to the third column of 
+Equation 3 in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf). The resulting vector corresponds to the third column of 
 Table 3 in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf). Each value of this vector represents the schedulability ratio of a Task-set.
 
 - **Second experiment:** For the script "Main_Experiment2", the output is a bar graph similar to 
