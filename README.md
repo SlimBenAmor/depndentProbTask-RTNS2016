@@ -8,7 +8,7 @@ The first folder named "*Experiment_1*" contains the necessary files to reproduc
 
 Changing initial parameters 
 -------------
-The provided scripts are set to perform the experiments presented in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0), in order to reproduce their results. 
+The provided scripts are set to perform the experiments presented in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf), in order to reproduce their results. 
 Further experiments can be be created by changing the input parameters in the "Main_Experiment" scripts.
 These input parameters are: 
 - number of tasks, denoted by "_NumberOfTasks_".
@@ -33,12 +33,12 @@ Results interpretation
 - **First experiment:** The output of the "Main_Experiment1" script is a vector represent the 
 schedulability ratio of different task sets analysed. If this ratio is less than 
 100% then the task set is not schedulable by the deterministic test illustrated by 
-equation (3) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0). We note that the produced results are similar to the 
-illustrated ones in Table 3 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) since we found a high schedulability ratio that exceed
+equation (3) in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf). We note that the produced results are similar to the 
+illustrated ones in Table 3 in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf) since we found a high schedulability ratio that exceed
 90% in most case.
 
 - **Second experiment:** For the "Main_Experiment2" script, the output is a bar graph similar to 
-Figure 4 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) that represent the number of task sets schedulable with a given 
+Figure 4 in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf) that represent the number of task sets schedulable with a given 
 ratio split in 10% interval. We note an important number of task sets schedulable 
 with a ratio between 0-10%. This results is caused by the randomly generated precedence relations
 that may impose very strict constraints and make the task set non-schedulable.
