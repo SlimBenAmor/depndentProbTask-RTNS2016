@@ -1,36 +1,31 @@
 # Artifact Guide
 
-Download and run 
+Download and run
 -------------
-First download the Artifact archive (green button on the top right). There are two folder "Exp1" illustrate 
-the results given by table (3) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) and "Exp2" provide results of 
-figure (4). To run the Artifact you need a basic Matlab version.
+The folder "RTNS 2016 - Artifact paper 75" contains two sub-folders one for each experiment presented in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) to download the folder simply click on the green button marked "Clone or download" then on download zip. You may then extract all the files from the archive.
 
-Second, change current folder in Matlab to "Exp1" (respectively "Exp2") and 
-run the script "sporadicPrecSimFixedGraph" (respectively 
-"sporadicPrecSimGeneratedGraph").
+The first folder named "Experiment_1" contains the necessary files to reproduce the results presented in Table 3.The second folder will reproduce the results of Figure 4. The code can be executed on Matlab (or equivalent Octave or Scilab). In order to run a certain experiment, set the "current folder" of Matlab on the folder of experiment and execute the "Main_Experiment" script.
 
-Input parameters 
+Changing initial parameters 
 -------------
-The given version of the scripts allow the reproduction of results similar 
-to the ones on the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0). But, there is some parameters user can play with 
-like: number of task, number of value per distribution et system utilization 
-rate. These parameter are named respectively: "Nt", "Nv" and "U" in the script. 
+The provided scripts are set to perform the experiments presented in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0), in order to reproduce their results. 
+Further experiments can be be created by changing the input parameters in the "Main_Experiment" scripts.
+These input parameters are: 
+- number of tasks, denoted by "NumberOfTasks".
+- number of values per distribution, denoted by "NumberOfValues".
+- system utilization, denoted by "Utilization".
 
-_Despite, the precedence matrix "G" used in "sporadicPrecSimFixedGraph" script 
-describe the precedence graph illustrated by figure (3) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0). This matrix
-must be modified if we change the number of task then a different precedence matrix 
-may produce a different results. Therefore in this case, user shouldn't change the 
-number of task to ensure similar results. but for the second experiment the Precedence 
-graph "G" are generated automatically thus we can change the number of task._
+**Note on changing the number of tasks in the system :** _For experiment 1, the number of tasks in the system is set
+, and so is the precedence matrix "G" which describes the precedence constraints between tasks.
+If the number of tasks is changed then the precedence matrix "G" need to be changed as well, otherwise the experiment will fail. 
+The precedence matrix "G" for experiment 2 is randomly generated according to the number of tasks, so in this case the number of tasks can easily be changed._
 
-Hardware and time specifications
+Hardware and experiments time 
 -------------------------------
-We have run these two scripts on Matlab 2014, windows 8.1 and with intel i7 microprocessor
-machine and 8Go of RAM. The first script "sporadicPrecSimFixedGraph" take about 10 
-minutes and the second one "sporadicPrecSimGeneratedGraph" take 50 minutes. If user
-want to run a shorter version, he can change the number of simulation "NbrSim" from 
-10 to 1 for the first script and from 100 to 1 for the second.
+In our work, we used a windows machine with an Intel i7 processor, 8Gb RAM and Matlab 2014a to perform the two experiments. In this setting
+it took about 10 minutes to perform the first experiment and about 50 minutes to perform the second one.
+For a simplified Version of these experiment with smaller run time, the number of analysed task sets decreased 
+(from 10 in the first experiment and from 100 in the second) to 1.
 
 Results interpretation
 -------------------------------
