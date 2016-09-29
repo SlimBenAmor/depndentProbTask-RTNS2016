@@ -2,7 +2,7 @@
 
 Download and run
 -------------
-The folder "_RTNS 2016 - Artifact paper 75_" contains two sub-folders one for each experiment presented in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) to download the folder simply click on the green button marked "Clone or download" then on download zip. You may then extract all the files from the archive.
+The folder "_RTNS 2016 - Artifact paper 75_" contains two sub-folders one for each experiment presented in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf) to download the folder simply click on the green button marked "Clone or download" then on download zip. You may then extract all the files from the archive.
 
 The first folder named "*Experiment_1*" contains the necessary files to reproduce the results presented in Table 3.The second folder named "*Experiment_2*" will reproduce the results of Figure 4. The code can be executed on Matlab (or equivalent Octave or Scilab). In order to run a certain experiment, set the "current folder" of Matlab on the folder of experiment and execute the "*Main_ExperimentX*" script.
 
