@@ -2,18 +2,18 @@
 
 Download and run
 -------------
-The folder "RTNS 2016 - Artifact paper 75" contains two sub-folders one for each experiment presented in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) to download the folder simply click on the green button marked "Clone or download" then on download zip. You may then extract all the files from the archive.
+The folder "_RTNS 2016 - Artifact paper 75_" contains two sub-folders one for each experiment presented in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) to download the folder simply click on the green button marked "Clone or download" then on download zip. You may then extract all the files from the archive.
 
-The first folder named "Experiment_1" contains the necessary files to reproduce the results presented in Table 3.The second folder will reproduce the results of Figure 4. The code can be executed on Matlab (or equivalent Octave or Scilab). In order to run a certain experiment, set the "current folder" of Matlab on the folder of experiment and execute the "Main_Experiment" script.
+The first folder named "*Experiment_1*" contains the necessary files to reproduce the results presented in Table 3.The second folder named "*Experiment_2*" will reproduce the results of Figure 4. The code can be executed on Matlab (or equivalent Octave or Scilab). In order to run a certain experiment, set the "current folder" of Matlab on the folder of experiment and execute the "Main_Experiment" script.
 
 Changing initial parameters 
 -------------
 The provided scripts are set to perform the experiments presented in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0), in order to reproduce their results. 
 Further experiments can be be created by changing the input parameters in the "Main_Experiment" scripts.
 These input parameters are: 
-- number of tasks, denoted by "NumberOfTasks".
-- number of values per distribution, denoted by "NumberOfValues".
-- system utilization, denoted by "Utilization".
+- number of tasks, denoted by "_NumberOfTasks_".
+- number of values per distribution, denoted by "_NumberOfValues_".
+- system utilization, denoted by "_Utilization_".
 
 **Note on changing the number of tasks in the system :** _For experiment 1, the number of tasks in the system is set
 , and so is the precedence matrix "G" which describes the precedence constraints between tasks.
