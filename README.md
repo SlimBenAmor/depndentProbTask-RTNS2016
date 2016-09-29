@@ -30,17 +30,17 @@ For a simplified Version of these experiment with smaller run time, the number o
 Results interpretation
 -------------------------------
 
-- **First experiment:** The output of the "sporadicPrecSimFixedGraph" script is vector represent the 
-schedulability rate of different task sets analysed. If this rate is less than 
+- **First experiment:** The output of the "Main_Experiment1" script is a vector represent the 
+schedulability ratio of different task sets analysed. If this ratio is less than 
 100% then the task set is not schedulable by the deterministic test illustrated by 
 equation (3) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0). We remark that the produced results are similar to the 
-illustrated ones in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) since we found a high schedulability rate that exceed
+illustrated ones in Table 3 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) since we found a high schedulability rate that exceed
 90% in most case.
 
-- **Second experiment:** For the "sporadicPrecSimGeneratedGraph" script, the output is a bar graph similar to 
-figure (4) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) that represent the number of task sets schedulable with a given 
-rate included in 10% interval. We remark an important number of task sets schedulable 
-with a rate between 0-10%. This observation is caused by the generated precedence 
+- **Second experiment:** For the "Main_Experiment2" script, the output is a bar graph similar to 
+figure 4 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) that represent the number of task sets schedulable with a given 
+ratio included in 10% interval. We remark an important number of task sets schedulable 
+with a ratio between 0-10%. This observation is caused by the generated precedence 
 that may impose very strict constraints and make the task set non-schedulable.
 Also, we remark a high number of task set schedulable with a rate greater than 90%. This 
 happens when the generated precedence are feasible.
