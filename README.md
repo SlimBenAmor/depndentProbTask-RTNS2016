@@ -33,16 +33,16 @@ Results interpretation
 - **First experiment:** The output of the "Main_Experiment1" script is a vector represent the 
 schedulability ratio of different task sets analysed. If this ratio is less than 
 100% then the task set is not schedulable by the deterministic test illustrated by 
-equation (3) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0). We remark that the produced results are similar to the 
-illustrated ones in Table 3 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) since we found a high schedulability rate that exceed
+equation (3) in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0). We note that the produced results are similar to the 
+illustrated ones in Table 3 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) since we found a high schedulability ratio that exceed
 90% in most case.
 
 - **Second experiment:** For the "Main_Experiment2" script, the output is a bar graph similar to 
-figure 4 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) that represent the number of task sets schedulable with a given 
-ratio included in 10% interval. We remark an important number of task sets schedulable 
-with a ratio between 0-10%. This observation is caused by the generated precedence 
+Figure 4 in the [paper](https://www.dropbox.com/s/e0kd0bsk0gm1adw/rtns2016.pdf?dl=0) that represent the number of task sets schedulable with a given 
+ratio split in 10% interval. We note an important number of task sets schedulable 
+with a ratio between 0-10%. This results is caused by the randomly generated precedence relations
 that may impose very strict constraints and make the task set non-schedulable.
-Also, we remark a high number of task set schedulable with a rate greater than 90%. This 
-happens when the generated precedence are feasible.
+Also, we note also a high number of task set schedulable with a rate greater than 90%. This 
+happens when the generated precedence constraints are feasible.
 There are variability of the number of task sets schedulable with other rates (10-80%). It
 can be explained by the randomly generated timing constraints.
