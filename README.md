@@ -1,5 +1,47 @@
 # Guide
 
+
+```mermaid
+graph RL
+H((H))-->A((A))
+v1[v1.00]-->H
+v2[v1.01]-->L((L))
+L-->H
+K((K))-->H
+L-->K
+E((E))-->B
+B((B))-->A
+G((G))-->E
+H-->G
+I((I))-->E
+M((M))-->I
+C((C))-->B
+D((D))-->C
+E-->D
+I-->G
+F((F))-.->E
+F1((F1))-.->I
+F2((F2))-.->M
+style A fill:#94c37f,stroke:#7f,stroke-width:4px
+style H fill:#94c37f,stroke:#7f,stroke-width:4px
+style L fill:#94c37f,stroke:#7f,stroke-width:4px
+style K fill:#f8111a,stroke:#7f,stroke-width:4px
+style G fill:#a2c4c9,stroke:#7f,stroke-width:4px
+style B fill:#b6a9d4,stroke:#7f,stroke-width:4px
+style E fill:#b6a9d4,stroke:#7f,stroke-width:4px
+style I fill:#b6a9d4,stroke:#7f,stroke-width:4px
+style M fill:#b6a9d4,stroke:#7f,stroke-width:4px
+style C fill:#fea72c,stroke:#7f,stroke-width:4px
+style D fill:#fea72c,stroke:#7f,stroke-width:4px
+style F fill:#fea72c,stroke:#7f,stroke-width:4px,stroke-dasharray: 10, 10
+style F1 fill:#fea72c,stroke:#7f,stroke-width:4px,stroke-dasharray: 10, 10
+style F2 fill:#fea72c,stroke:#7f,stroke-width:4px,stroke-dasharray: 10, 10
+style v1 fill:#fef064,stroke:#7f,stroke-width:4px
+style v2 fill:#fef064,stroke:#7f,stroke-width:4px
+```
+
+
+
 Download and run
 -------------
 The folder "_RTNS 2016 - Artifact paper 75_" contains two sub-folders one for each experiment presented in the [paper](https://github.com/SlimBenAmor/depndentProbTask-RTNS2016/blob/master/rtns2016.pdf). To download the folder simply click on the green button marked "Clone or download" then on Download ZIP. You may then extract all the files from the archive.
